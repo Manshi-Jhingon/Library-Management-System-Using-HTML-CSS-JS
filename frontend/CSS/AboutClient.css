@@ -1,0 +1,95 @@
+
+body {
+        font-size: 16px;
+        color: #e0e0e0;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Aboutclient {
+        width: 90%;
+        max-width: 700px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 12px;
+        box-shadow: 0 0 15px #00ffff;
+    }
+
+    .h-primary-center {
+        text-align: center;
+        text-shadow: 1px 1px 4px #0ff;
+        color: #00ffff;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    #client-box {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #client-box form {
+        width: 100%;
+    }
+
+    .form-group {
+        margin-bottom: 12px;
+    }
+
+    label {
+        font-size: 0.9rem;
+        color: #00ffe7;
+        margin-bottom: 4px;
+        display: block;
+    }
+input,
+textarea {
+    width: 100%;
+    padding: 14px 16px;   /* bigger padding */
+    font-size: 1.1rem;    /* larger text */
+    border-radius: 10px;  /* slightly larger corners */
+    border: 1px solid #00ffff;
+    background-color: #1c1c1c;
+    color: white;
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+    transition: 0.3s;
+}
+
+
+    input:focus,
+    textarea:focus {
+        outline: none;
+        box-shadow: 0 0 10px #00ffff;
+        background-color: #222;
+    }
+
+    #SUBMIT {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        background: linear-gradient(90deg, #00ffff, #0088ff);
+        color: #000;
+        font-weight: bold;
+        box-shadow: 0 0 10px #00ffff;
+        transition: all 0.3s ease-in-out;
+    }
+
+    button:hover {
+        background: linear-gradient(90deg, #00ffaa, #00aaff);
+        transform: scale(1.03);
+        box-shadow: 0 0 15px #00ffcc;
+    }

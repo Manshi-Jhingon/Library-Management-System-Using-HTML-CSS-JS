@@ -1,0 +1,202 @@
+
+ #p1{background-color: aliceblue;
+ color: black;
+margin-left: 610px;
+height: 30px;
+width: 20%;
+text-align: center;
+margin-top: 70px;
+border-radius: 10px;
+font-family: cursive;
+font-size: large;
+margin-left: 530px;
+box-shadow: 5px 5px 5px black;
+}
+
+
+#p1:hover{
+   background-color: black;
+   color: wheat;
+    
+
+}
+        
+      #n1{
+    height: 300px;
+    width: 31%;
+    border: 5px double wheat;
+    margin-top: 30px;
+    margin-left: 460px;
+    background-size: 100% 100%;
+    border-radius: 10px;
+box-shadow: 5px 5px 10px wheat;}
+
+
+#j1{
+    background-color:burlywood;
+    color: black;
+    margin-left: 650px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px black solid;
+    height: 30px;
+    cursor: pointer;
+     
+}
+
+
+#j1:hover{
+   background-color:  crimson;
+   color: aliceblue;
+   
+}
+
+
+body{
+    background-image: url("../Images/BG1.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
+
+#n2{
+height: 30px;
+width: 30%;
+border: 2px solid black;
+margin-left: 470px;
+font-size: 20px;
+font-family: cursive;
+font-weight: 200;
+font-variant: small-caps;
+margin-top: 20px;
+color: black;
+background-color: pink;
+text-align: center;
+
+}
+#m1{
+    background-color: crimson;
+    text-align:center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    font-weight: 300;
+    
+    color: black;
+  
+
+}
+.BooksContainer{
+    position: absolute;
+top: 60PX;
+
+
+
+}
+#books{
+    cursor: pointer;
+}
+
+#A1{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    margin-left: 3px;
+    animation: ani 2s 2s infinite linear;
+    text-align: start;
+    border: 1px solid black;
+    position: relative;
+   top: 10px;
+    
+}
+@keyframes ani {
+    0%{
+        transform: rotate(0deg);
+        background-color: green;
+        
+    }
+    10%{
+        transform: rotate(0deg);
+        background-color: black;
+        
+    }
+
+    20%{
+        transform: rotate(0deg);
+        background-color: green;
+        
+    }
+
+    30%{
+        transform: rotate(0deg);
+        background-color: black;
+        
+    }
+
+    40%{
+        transform: rotate(0deg);
+        background-color:green;
+        
+    }
+
+    50%{
+        transform: rotate(0deg);
+        background-color: black;
+        
+    }
+
+    60%{
+        transform: rotate(0deg);
+        background-color: green;
+        
+    }
+
+    70%{
+        transform: rotate(0deg);
+        background-color: black;
+        
+    }
+
+    80%{
+        transform: rotate(10deg);
+        background-color: green;
+        
+    }
+
+
+     90%{
+        transform: rotate(20deg);
+       background-color: black;
+        
+    }
+
+    100%{
+        transform: rotate(30deg);
+        background-color: green;
+        
+    }
+    
+
+    
+
+}
+#ani{
+    height: 30px;
+    width: 550px;
+    background-color: rgb(173, 146, 199);
+    color: black;
+    margin-left
+    : 450px;
+    margin-bottom: 5px;
+   font-size: medium;
+    font-family:bolder;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    /* font-variant:  */
+    
+   
+   
+    
+}

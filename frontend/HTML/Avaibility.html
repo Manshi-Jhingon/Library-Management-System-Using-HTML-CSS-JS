@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+        <title>Book Avaibility</title>
+    <link rel="stylesheet" href="/LMS PROJECT/CSS/Avaibility.css">
+
+    </body>
+
+    
+
+ 
+    </style>
+
+    <script>
+        function m1(){
+ 
+ n=document.getElementById("p1").value
+ 
+ switch(n)
+ {
+    case'2 STATES':document.getElementById("n1").style.backgroundImage='url("../images/2 states.jpg")'
+    document.getElementById("n2").innerHTML="AUTHOR NAME: CHETAN BHAGAT"
+    break;
+case'400 DAYS':document.getElementById("n1").style.backgroundImage='url("../images/400 days.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: CHETAN BHAGAT" 
+break;
+case'EVOLUTION 2020':document.getElementById("n1").style.backgroundImage='url("../images/Evolution 2020.png")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: CHETAN BHAGAT"
+break;
+case'HP-CHAMBER OF SECRETS':document.getElementById("n1").style.backgroundImage='url("../images/Chamber of secrets.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: J.K ROWLING"
+break;
+case'HP-AND THE DEATHY HALLOWS':document.getElementById("n1").style.backgroundImage='url("../images/And the deathy hallows.jpeg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: J.K ROWLING"
+break;
+case'HP-AND THE PHILOSPHERS STONE':document.getElementById("n1").style.backgroundImage='url("../images/And the philosphers stone.jpg ")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: J.K ROWLING"
+break;
+case'HP-AND THE PRISONER OF AZKABAN':document.getElementById("n1").style.backgroundImage='url("../images/HPPA.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: J.K ROWLING"
+break;
+case'HP-ORDER OF THE PHOENIX':document.getElementById("n1").style.backgroundImage='url("../images/HPPO.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: J.K ROWLING"
+break;
+case'THE RAMAYANA':document.getElementById("n1").style.backgroundImage='url("../images/ramayana.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: MAHARISHI VALMIKI"
+break;
+case'THE BHAGAVAD GITA':document.getElementById("n1").style.backgroundImage='url("../images/Bhagvatagita.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: VEDA VYASA"
+break;
+case'THE GURU GRANTH SAHIB':document.getElementById("n1").style.backgroundImage='url("../images/Gurugranth.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: PASHAURA SINGH"
+break;
+case'KURAN':document.getElementById("n1").style.backgroundImage='url("../images/HPPO.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: J.K ROWLING"
+break;
+case'THE HOLY BIBLE':document.getElementById("n1").style.backgroundImage='url("../images/Bible.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: J.K ROWLING"
+break;
+case 'TO KILL A MOCKINGBIRD':document.getElementById("n1").style.backgroundImage='url("../images/TKMB.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: HARPER LEE"
+break;
+case'MR. DICKENS AND HIS CAROL':document.getElementById("n1").style.backgroundImage='url("../images/MD.jpg")'
+document.getElementById("n2").innerHTML="AUTHOR NAME: SAMANTHA SILVA"
+break;
+
+
+
+
+
+default:document.getElementById("n1").style.backgroundImage='url("fail.jfif")'
+document.getElementById("n2").innerHTML="TILL NOW NOT AVAILABLE...☹"
+ }}
+
+    </script>
+</head>
+<body>
+    <div id="ani">
+       
+        <div id="A1"></div>PLEASE USE CAPITAL LETTERS TO SEARCH YOUR REQUIRED BOOKS
+
+    </div>
+    
+    
+
+    
+    <input type="text" id="p1" placeholder="TYPE YOUR REQUIRED BOOK"><br>
+    <button onclick="m1()" id="j1">SEARCH</button>
+    
+
+    
+    <div id="n1"></div>
+   
+    <div  id="n2" ></div>
+    <div class="BooksContainer">
+    <select id="Books">
+        <option id="m1">AVAILABLE BOOKS</option>
+        <option value="">400 DAYS</option>
+        <option value="">EVOLUTION 2020</option>
+        <option value="">MR. DICKENS AND HIS CAROL</option>
+        <option value="">TO KILL A MOCKING BIRD</option>
+        <option value="">HP-CHAMBER OF SECFETS</option>
+        <option value="">HP-AND THE DEATHY HALLOWS </option>
+        <option value="">HP-AND THE PHILOSPHERS STONE</option>
+        <option value="">HP-AND THE PRISONER OF AZKABAN</option>
+        <option value="">HP-ORDER OF PHOENIX</option>
+        <option value="">THE RAMAYANA</option>
+        <option value="">THE BHAGAVAD GITA</option>
+        <option value="">THE GURU GRANTH SAHIB</option>
+        <option value="">THY HOLY BIBLE</option>
+        <option value="">KURAN</option>
+        <option value="">2 STATES</option>
+ </select>
+    </div>
+   
+</body>
+
+</html>
